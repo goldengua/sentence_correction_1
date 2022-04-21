@@ -5,7 +5,7 @@ PennController.ResetPrefix(null); // Initiates PennController
 
 // Start typing your code here
 
-Sequence( "consent","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "","experiment_intro", randomize("experiment"), "send" , "final" )
+Sequence( "consent","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","experiment_intro", randomize("experiment"), "send" , "final" )
 newTrial("consent",
     newHtml("consent_form", "consent.html")
         .cssContainer({"width":"720px"})
@@ -96,7 +96,7 @@ newTrial( "practice 2" ,
     defaultText
         .print()
     ,
-    newText("This sentence is correct.</p>")
+    newText("This sentence is correct.")
         .italic()
     ,
     newText("The corrected sentence is the same as the original: ")
