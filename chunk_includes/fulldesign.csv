@@ -1,0 +1,481 @@
+item,type,cloze,group,sentence
+1,diff,high,1,The tenant inquired which neighbor the landlord had evicted from the apartment complex.
+2,diff,high,1,The tenant inquired which exterminator the landlord had hired for the job.
+3,diff,high,1,The general heard which terrorist the corporal had captured during the stakeout.
+4,diff,high,1,The general heard which comrade the corporal had promoted in the army.
+5,diff,high,1,The vice principal saw which rascal the teacher had punished with a detention note.
+6,diff,high,1,The vice principal saw which nerd the teacher had praised in the classroom.
+7,diff,high,1,The journalist wrote which foodie the chef had served at the restaurant.
+8,diff,high,1,The journalist wrote which waiter the chef had yelled at for being incompetent.
+9,diff,high,1,The secretary forgot which addict the therapist had treated at the clinic.
+10,diff,high,1,The secretary forgot which doctor the therapist had recommended for him to go to.
+11,diff,high,1,The babysitter learned which baby the mother had adopted several weeks ago.
+12,diff,high,1,The babysitter learned which teenager the mother had punished for being late.
+13,diff,high,1,The executive revealed which clerk the manager had promoted to a higher position.
+14,diff,high,1,The administrator heard which patient the doctor had treated in the hospital room.
+15,diff,high,1,The administrator heard which nurse the doctor had hired to assist him.
+16,diff,high,1,The author revealed which ogre the hero had slain in the cave.
+17,diff,high,1,The author revealed which maiden the hero had rescued after the fight.
+18,diff,high,1,The bartender knew which troublemakers the regulars had fought after getting drunk.
+19,diff,high,1,The bartender knew which barmaids the regulars had tipped extra money to.
+20,diff,high,1,The businessman overheard which libelist the executive had sued at the court.
+21,diff,high,1,The businessman overheard which clerk the executive had promoted in the company.
+22,diff,high,1,The butler speculated which guests the master had invited to his manor.
+23,diff,high,1,The butler speculated which servants the master had fired from the job.
+24,diff,high,1,The comic book artist announced which sidekick the superhero had chosen as his partner.
+25,diff,high,1,The department chair stated which cheater the professor had caught during the exam.
+26,diff,high,1,The department chair stated which proctor the professor had used for the final test.
+27,diff,high,1,The deputy deduced which hooligan the gangster had recruited for the assignment.
+28,diff,high,1,The deputy deduced which victim the gangster had robbed in the alleyway.
+29,diff,high,1,The fairy princess described which demons the sorceress had summoned with her spell.
+30,diff,high,1,The fairy princess described which newts the sorceress had used in the potion.
+31,same,high,1,The voters reported which opponent the politician had defeated in the election.
+32,same,high,1,The opponent reported which voters the politician had bribed with his money.
+33,same,high,1,The animal discovered which goddess the caveman had worshipped with his murals.
+34,same,high,1,The goddess discovered which animal the caveman had eaten during the winter.
+35,same,high,1,The entrepreneur publicized which golddigger the millionaire had married the previous week.
+36,same,high,1,The golddigger publicized which entrepreneur the millionaire had invested in for the fiscal year.
+37,same,high,1,The ex-president concealed which assassin the agent had shot in the chest.
+38,same,high,1,The assassin concealed which ex-president the agent had protected from the bullet.
+39,same,high,1,The dragon explained which princess the prince had saved with his bravery.
+40,same,high,1,The princess explained which dragon the prince had slain with his sword.
+41,same,high,1,The lifeguard recalled which champion the swimmer had beaten during the race.
+42,same,high,1,The champion recalled which lifeguard the swimmer had saved by giving CPR.
+43,same,high,1,The overacheiver remembered which delinquent the principal had punished after the scuffle.
+44,same,high,1,The delinquent remembered which overacheiver the principal had praised for good grades.
+45,same,high,1,The umpire knew which athlete the officials had penalized during the match.
+46,same,high,1,The athlete knew which umpire the officials had selected to be at the game.
+47,same,high,1,The specialist realized which customer the physician had helped in the examination room.
+48,same,high,1,The customer realized which specialist the physician had recommended for further analysis.
+49,same,high,1,The addict understood which pharmacist the psychiatrist had recommended to take a visit to.
+50,same,high,1,The pharmicist understood which addict the psychiatrist had treated for several months.
+51,same,high,1,The skeptic mentioned which believer the psychic had read the future for.
+52,same,high,1,The believer mentioned which skeptic the psychic had convinced with her act.
+53,same,high,1,The tribesman knew which cameraman the anthropologist had used for the expedition.
+54,same,high,1,The cameraman knew which tribesman the anthropologist had studied for the last year.
+55,same,high,1,The patient heard which surgeon the dentist had recommended for a follow-up.
+56,same,high,1,The surgeon heard which patient the dentist had injured during the check-up.
+57,same,high,1,The villain saw which damsel the superhero had saved from the fire.
+58,same,high,1,The damsel saw which villain the superhero had defeated in the battle.
+59,same,high,1,The troublemaker observed which perfectionist the teacher had praised for good work.
+60,same,high,1,The perfectionist observed which troublemaker the teacher had punished for starting a fight.
+61,diff,low,1,The regulars saw which bartender the owner had served a beer to.
+62,diff,low,1,The regulars saw which patron the owner had fired from the position.
+63,diff,low,1,The bookie knew which gambler the horse had thrown during the tourney.
+64,diff,low,1,The school nurse knew which administrator the kid had visited the previous day.
+65,diff,low,1,The guide asked which villager the tourist had caught trying to steal.
+66,diff,low,1,The officer knew which activist the striker had targeted during the riot.
+67,diff,low,1,The clubber explained which blogger the DJ had played at the club.
+68,diff,low,1,The classmate guessed which lecturer the TA had dated the previous semester.
+69,diff,low,1,The champion stated which announcer the referee had disqualified from the match.
+70,diff,low,1,The aide stated which diplomat the guard had beaten in the jailhouse.
+71,diff,low,1,The executive revealed which clerk the manager had helped on the phone.
+72,diff,low,1,The chief overheard which informant the police had caught during the bust.
+73,diff,low,1,The employee heard which go-getter the boss had fired for being lazy.
+74,diff,low,1,The child observed which tourist the zookeeper had hired for the exhibit.
+75,diff,low,1,The CEO guessed which customer the manager had fired for missing work.
+76,diff,low,1,The fan surmised which admirer the actress had hired for the audition.
+77,diff,low,1,The anchorman reported which supporter the senator had defeated in the last election.
+78,diff,low,1,The announcer stated which teammate the player had defeated during the game.
+79,diff,low,1,The assistant verified which applicant the employer had fired the previous month.
+80,diff,low,1,The beggar saw which prophet the wiseman had cured with his healing.
+81,diff,low,1,The captain realized which landlubber the sailor had hidden in the cargo area.
+82,diff,low,1,The circus goers explained which juggler the clown had scared with his trick.
+83,diff,low,1,The columnist publicized which billionaire the supermodel had used for the fashion show.
+84,diff,low,1,The correspondent reported which spectators the judges had chosen for the game show.
+85,diff,low,1,The editor published which volunteer the philanthropist had adopted at a young age.
+86,diff,low,1,The football fan heard which linebacker the quarterback had dated during the semester.
+87,diff,low,1,The general knew which supporter the dictator had imprisoned during the trials.
+88,diff,low,1,The historian knew which prince the king had married in the palace.
+89,diff,low,1,The historian recorded which traitor the king had knighted during the ceremony.
+90,diff,low,1,The history major learned which rebels the emperor had employed to work for him.
+91,same,low,1,The gunman confirmed which cop the criminal had hired during the heist.
+92,same,low,1,The client guessed which intern the technician had helped earlier that day.
+93,same,low,1,The sinner recalled which cardinal the priest had forgiven during the morning mass.
+94,same,low,1,The actor speculated which director the stuntman had replaced in the movie shot.
+95,same,low,1,The lieutenant recognized which thief the officer had promoted to a higher rank.
+96,same,low,1,The voter  forgot which intern the senator had bribed to help him win.
+97,same,low,1,The nonbeliever mentioned which archbishop the nun had converted at the church.
+98,same,low,1,The warrior named which infidel the deity had blessed during the prayer ceremony.
+99,same,low,1,The parent forgot which student the teacher had called to meet with.
+100,same,low,1,The researchers  criticized which participants the authors had cited in their paper.
+101,same,low,1,The god asked which adversary the gladiator had prayed to before the battle.
+102,same,low,1,The viewers clarified which producers the director had targeted with his movie.
+103,same,low,1,The loyalists recorded which rebels the monarch had rewarded with a casket of jewels.
+104,same,low,1,The illustrator  confirmed which readers the author had used for her book.
+105,same,low,1,The manager knew which investor the CEO had promoted in his company.
+106,same,low,1,The guard knew which townsperson the captain had promoted to a more important position.
+107,same,low,1,The bouncer determined which psychologist the alcoholic had hit during a drunken rage.
+108,same,low,1,The batter remembered which pitcher the catcher had tagged out during the first half.
+109,same,low,1,The defendent recorded which lawyer the judge had sentenced in the trial.
+110,same,low,1,The bicyclist indicated which passenger the driver had struck with his car.
+111,same,low,1,The fan learned which footballer the referee had yelled at during the time-out.
+112,same,low,1,The pediatrician  stated which child the nurse had recommended to regularily see.
+113,same,low,1,The pupil recognized which advisor the tutor had taught math weekly to.
+114,same,low,1,The techie guessed which model the photographer had hired for the shoot.
+115,same,low,1,The hooligan deduced which victim the guard had detained during the fight.
+116,same,low,1,The politician reported which voter the activist had supported during the elections.
+117,same,low,1,The panhandler saw which pedestrian the shopkeeper had caught trying to steal.
+118,same,low,1,The firefighter knew which arsonist the mayor had awarded a medal to.
+119,same,low,1,The engineer knew which client the boss had promoted earlier that week.
+120,same,low,1,The actor learned which producer the director had cast for the role.
+31,diff,high,2,The journalist reported which opponent the politician had defeated in the election.
+32,diff,high,2,The journalist reported which voters the politician had bribed with his money.
+33,diff,high,2,The paleoanthropologist discovered which goddess the caveman had worshipped with his murals.
+34,diff,high,2,The paleoanthropologist discovered which animal the caveman had eaten during the winter.
+35,diff,high,2,The reporter publicized which golddigger the millionaire had married the previous week.
+36,diff,high,2,The reporter publicized which entrepreneur the millionaire had invested in for the fiscal year.
+37,diff,high,2,The secret serviceman concealed which assassin the agent had shot in the chest.
+38,diff,high,2,The secret serviceman concealed which ex-president the agent had protected from the bullet.
+39,diff,high,2,The storyteller explained which princess the prince had saved with his bravery.
+40,diff,high,2,The storyteller explained which dragon the prince had slain with his sword.
+41,diff,high,2,The swim team recalled which champion the swimmer had beaten during the race.
+42,diff,high,2,The swim team recalled which lifeguard the swimmer had saved by giving CPR.
+43,diff,high,2,The teacher remembered which delinquent the principal had punished after the scuffle.
+44,diff,high,2,The teacher remembered which overacheiver the principal had praised for good grades.
+45,diff,high,2,The team manager knew which athlete the officials had penalized during the match.
+46,diff,high,2,The team manager knew which umpire the officials had selected to be at the game.
+47,diff,high,2,The pharmacist realized which customer the physician had helped in the examination room.
+48,diff,high,2,The pharmacist realized which specialist the physician had recommended for further analysis.
+49,diff,high,2,The woman understood which pharmacist the psychiatrist had recommended to take a visit to.
+50,diff,high,2,The woman understood which addict the psychiatrist had treated for several months.
+51,diff,high,2,The reporter mentioned which believer the psychic had read the future for.
+52,diff,high,2,The reporter mentioned which skeptic the psychic had convinced with her act.
+53,diff,high,2,The editor knew which cameraman the anthropologist had used for the expedition.
+54,diff,high,2,The editor knew which tribesman the anthropologist had studied for the last year.
+55,diff,high,2,The intern heard which surgeon the dentist had recommended for a follow-up.
+56,diff,high,2,The intern heard which patient the dentist had injured during the check-up.
+57,diff,high,2,The king saw which damsel the superhero had saved from the fire.
+58,diff,high,2,The king saw which villain the superhero had defeated in the battle.
+59,diff,high,2,The principal  observed which perfectionist the teacher had praised for good work.
+60,diff,high,2,The principal observed which troublemaker the teacher had punished for starting a fight.
+1,same,high,2,The exterminator inquired which neighbor the landlord had evicted from the apartment complex.
+2,same,high,2,The neighbor inquired which exterminator the landlord had hired for the job.
+3,same,high,2,The comrade heard which terrorist the corporal had captured during the stakeout.
+4,same,high,2,The terrorist heard which comrade the corporal had promoted in the army.
+5,same,high,2,The nerd saw which rascal the teacher had punished with a detention note.
+6,same,high,2,The rascal saw which nerd the teacher had praised in the classroom.
+7,same,high,2,The waiter wrote which foodie the chef had served at the restaurant.
+8,same,high,2,The foodie wrote which waiter the chef had yelled at for being incompetent.
+9,same,high,2,The doctor forgot which addict the therapist had treated at the clinic.
+10,same,high,2,The addict forgot which doctor the therapist had recommended for him to go to.
+11,same,high,2,The teenager learned which baby the mother had adopted several weeks ago.
+12,same,high,2,The baby learned which teenager the mother had punished for being late.
+13,same,high,2,The customer revealed which clerk the manager had promoted to a higher position.
+14,same,high,2,The nurse heard which patient the doctor had treated in the hospital room.
+15,same,high,2,The patient heard which nurse the doctor had hired to assist him.
+16,same,high,2,The maiden revealed which ogre the hero had slain in the cave.
+17,same,high,2,The ogre  revealed which maiden the hero had rescued after the fight.
+18,same,high,2,The barmaids knew which troublemakers the regulars had fought after getting drunk.
+19,same,high,2,The troublemakers knew which barmaids the regulars had tipped extra money to.
+20,same,high,2,The clerk overheard which libelist the executive had sued at the court.
+21,same,high,2,The libelist  overheard which clerk the executive had promoted in the company.
+22,same,high,2,The servants speculated which guests the master had invited to his manor.
+23,same,high,2,The guests speculated which servants the master had fired from the job.
+24,same,high,2,The villain announced which sidekick the superhero had chosen as his partner.
+25,same,high,2,The proctor stated which cheater the professor had caught during the exam.
+26,same,high,2,The cheater stated which proctor the professor had used for the final test.
+27,same,high,2,The victim deduced which hooligan the gangster had recruited for the assignment.
+28,same,high,2,The hooligan deduced which victim the gangster had robbed in the alleyway.
+29,same,high,2,The newts described which demons the sorceress had summoned with her spell.
+30,same,high,2,The demons described which newts the sorceress had used in the potion.
+91,diff,low,2,The investigator confirmed which cop the criminal had hired during the heist.
+92,diff,low,2,The manager guessed which intern the technician had helped earlier that day.
+93,diff,low,2,The monk recalled which cardinal the priest had forgiven during the morning mass.
+94,diff,low,2,The movie buff speculated which director the stuntman had replaced in the movie shot.
+95,diff,low,2,The police woman recognized which thief the officer had promoted to a higher rank.
+96,diff,low,2,The politician forgot which intern the senator had bribed to help him win.
+97,diff,low,2,The priest mentioned which archbishop the nun had converted at the church.
+98,diff,low,2,The priestess named which infidel the deity had blessed during the prayer ceremony.
+99,diff,low,2,The principal forgot which student the teacher had called to meet with.
+100,diff,low,2,The reviewer criticized which participants the authors had cited in their paper.
+101,diff,low,2,The Roman asked which adversary the gladiator had prayed to before the battle.
+102,diff,low,2,The screenwriter clarified which producers the director had targeted with his movie.
+103,diff,low,2,The scribe recorded which rebels the monarch had rewarded with a casket of jewels.
+104,diff,low,2,The secretary confirmed which readers the author had used for her book.
+105,diff,low,2,The secretary knew which investor the CEO had promoted in his company.
+106,diff,low,2,The sentry knew which townsperson the captain had promoted to a more important position.
+107,diff,low,2,The snoop determined which psychologist the alcoholic had hit during a drunken rage.
+108,diff,low,2,The spectator remembered which pitcher the catcher had tagged out during the first half.
+109,diff,low,2,The stenographer recorded which lawyer the judge had sentenced in the trial.
+110,diff,low,2,The woman indicated which passenger the driver had struck with his car.
+111,diff,low,2,The coach learned which footballer the referee had yelled at during the time-out.
+112,diff,low,2,The mother stated which child the nurse had recommended to regularily see.
+113,diff,low,2,The administrator recognized which advisor the tutor had taught math weekly to.
+114,diff,low,2,The fashion designer  guessed which model the photographer had hired for the shoot.
+115,diff,low,2,The deputy deduced which victim the guard had detained during the fight.
+116,diff,low,2,The journalist reported which voter the activist had supported during the elections.
+117,diff,low,2,The street vendor saw which pedestrian  the shopkeeper had caught trying to steal.
+118,diff,low,2,The journalist knew which arsonist the mayor had awarded a medal to.
+119,diff,low,2,The assistant knew which client the boss had promoted earlier that week.
+120,diff,low,2,The movie buff learned which producer the director had cast for the role.
+61,same,low,2,The patron saw which bartender the owner had served a beer to.
+62,same,low,2,The bartender saw which patron the owner had fired from the position.
+63,same,low,2,The jockey knew which gambler the horse had thrown during the tourney.
+64,same,low,2,The dentist knew which administrator the kid had visited the previous day.
+65,same,low,2,The pickpocket asked which villager the tourist had caught trying to steal.
+66,same,low,2,The boss knew which activist the striker had targeted during the riot.
+67,same,low,2,The artists explained which blogger the DJ had played at the club.
+68,same,low,2,The freshman guessed which lecturer the TA had dated the previous semester.
+69,same,low,2,The wrestler stated which announcer the referee had disqualified from the match.
+70,same,low,2,The prisoner stated which diplomat the guard had beaten in the jailhouse.
+71,same,low,2,The customer revealed which clerk the manager had helped on the phone.
+72,same,low,2,The criminal overheard which informant the police had caught during the bust.
+73,same,low,2,The slacker heard which go-getter the boss had fired for being lazy.
+74,same,low,2,The biologist observed which tourist the zookeeper had hired for the exhibit.
+75,same,low,2,The employee guessed which customer the manager had fired for missing work.
+76,same,low,2,The agent surmised which admirer the actress had hired for the audition.
+77,same,low,2,The candidate reported which supporter the senator had defeated in the last election.
+78,same,low,2,The rival stated which teammate the player had defeated during the game.
+79,same,low,2,The worker  verified which applicant the employer had fired the previous month.
+80,same,low,2,The leper saw which prophet the wiseman had cured with his healing.
+81,same,low,2,The stowaway realized which landlubber the sailor had hidden in the cargo area.
+82,same,low,2,The child explained which juggler the clown had scared with his trick.
+83,same,low,2,The stylist publicized which billionaire the supermodel had used for the fashion show.
+84,same,low,2,The contestants reported which spectators the judges had chosen for the game show.
+85,same,low,2,The orphan published which volunteer the philanthropist had adopted at a young age.
+86,same,low,2,The cheerleader heard which linebacker the quarterback had dated during the semester.
+87,same,low,2,The activist knew which supporter the dictator had imprisoned during the trials.
+88,same,low,2,The queen knew which prince the king had married in the palace.
+89,same,low,2,The patriot recorded which traitor the king had knighted during the ceremony.
+90,same,low,2,The mercenaries learned which rebels the emperor had employed to work for him.
+61,diff,high,3,The regulars saw which patron the owner had served a beer to.
+62,diff,high,3,The regulars saw which bartender the owner had fired from the position.
+63,diff,high,3,The bookie knew which jockey the horse had thrown during the tourney.
+64,diff,high,3,The school nurse knew which dentist the kid had visited the previous day.
+65,diff,high,3,The guide asked which pickpocket the tourist had caught trying to steal.
+66,diff,high,3,The officer knew which boss the striker had targeted during the riot.
+67,diff,high,3,The clubber explained which artists the DJ had played at the club.
+68,diff,high,3,The classmate guessed which freshman the TA had dated the previous semester.
+69,diff,high,3,The champion stated which wrestler the referee had disqualified from the match.
+70,diff,high,3,The aide stated which prisoner the guard had beaten in the jailhouse.
+71,diff,high,3,The executive revealed which customer the manager had helped on the phone.
+72,diff,high,3,The chief overheard which criminal the police had caught during the bust.
+73,diff,high,3,The employee heard which slacker the boss had fired for being lazy.
+74,diff,high,3,The child observed which biologist the zookeeper had hired for the exhibit.
+75,diff,high,3,The CEO  guessed which employee the manager had fired for missing work.
+76,diff,high,3,The fan surmised which agent the actress had hired for the audition.
+77,diff,high,3,The anchorman reported which candidate the senator had defeated in the last election.
+78,diff,high,3,The announcer stated which rival the player had defeated during the game.
+79,diff,high,3,The assistant verified which worker the employer had fired the previous month.
+80,diff,high,3,The beggar saw which leper the wiseman had cured with his healing.
+81,diff,high,3,The captain realized which stowaway the sailor had hidden in the cargo area.
+82,diff,high,3,The circus goers explained which child the clown had scared with his trick.
+83,diff,high,3,The columnist publicized which stylist the supermodel had used for the fashion show.
+84,diff,high,3,The correspondent reported which contestants the judges had chosen for the game show.
+85,diff,high,3,The editor published which orphan the philanthropist had adopted at a young age.
+86,diff,high,3,The football fan heard which cheerleader the quarterback had dated during the semester.
+87,diff,high,3,The general knew which activist the dictator had imprisoned during the trials.
+88,diff,high,3,The historian knew which queen the king had married in the palace.
+89,diff,high,3,The historian recorded which patriot the king had knighted during the ceremony.
+90,diff,high,3,The history major learned which mercenaries the emperor had employed to work for him.
+91,same,high,3,The cop confirmed which gunman the criminal had hired during the heist.
+92,same,high,3,The intern guessed which client the technician had helped earlier that day.
+93,same,high,3,The cardinal recalled which sinner the priest had forgiven during the morning mass.
+94,same,high,3,The director speculated which actor the stuntman had replaced in the movie shot.
+95,same,high,3,The theif recognized which lieutenant the officer had promoted to a higher rank.
+96,same,high,3,The intern forgot which voter the senator had bribed to help him win.
+97,same,high,3,The archbishop mentioned which nonbeliever the nun had converted at the church.
+98,same,high,3,The infidel named which warrior the deity had blessed during the prayer ceremony.
+99,same,high,3,The student forgot which parent the teacher had called to meet with.
+100,same,high,3,The participants  criticized which researchers the authors had cited in their paper.
+101,same,high,3,The adversary asked which god the gladiator had prayed to before the battle.
+102,same,high,3,The producer  clarified which viewers the director had targeted with his movie.
+103,same,high,3,The rebels recorded which loyalists the monarch had rewarded with a casket of jewels.
+104,same,high,3,The reader confirmed which illustrator the author had used for her book.
+105,same,high,3,The investor  knew which manager the CEO had promoted in his company.
+106,same,high,3,The townsperson knew which guard the captain had promoted to a more important position.
+107,same,high,3,The psychologist  determined which bouncer the alcoholic had hit during a drunken rage.
+108,same,high,3,The pitcher remembered which batter the catcher had tagged out during the first half.
+109,same,high,3,The laywer recorded which defendant the judge had sentenced in the trial.
+110,same,high,3,The passenger indicated which bicyclist the driver had struck with his car.
+111,same,high,3,The footballer learned which fan the referee had yelled at during the time-out.
+112,same,high,3,The child stated which pediatrician  the nurse had recommended to regularily see.
+113,same,high,3,The advisor recognized which pupil the tutor had taught math weekly to.
+114,same,high,3,The model guessed which techie the photographer had hired for the shoot.
+115,same,high,3,The victim deduced which hooligan the guard had detained during the fight.
+116,same,high,3,The voter reported which politician the activist had supported during the elections.
+117,same,high,3,The pedestrian saw which panhandler the shopkeeper had caught trying to steal.
+118,same,high,3,The arsonist knew which firefighter the mayor had awarded a medal to.
+119,same,high,3,The client knew which engineer the boss had promoted earlier that week.
+120,same,high,3,The producer learned which actor the director had cast for the role.
+31,diff,low,3,The journalist reported which voters the politician had defeated in the election.
+32,diff,low,3,The journalist reported which opponent the politician had bribed with his money.
+33,diff,low,3,The paleoanthropologist discovered which animal the caveman had worshipped with his murals.
+34,diff,low,3,The paleoanthropologist discovered which goddess the caveman had eaten during the winter.
+35,diff,low,3,The reporter publicized which entrepreneur the millionaire had married the previous week.
+36,diff,low,3,The reporter publicized which golddigger the millionaire had invested in for the fiscal year.
+37,diff,low,3,The secret serviceman concealed which ex-president the agent had shot in the chest.
+38,diff,low,3,The secret serviceman concealed which assassin the agent had protected from the bullet.
+39,diff,low,3,The storyteller explained which dragon the prince had saved with his bravery.
+40,diff,low,3,The storyteller explained which princess the prince had slain with his sword.
+41,diff,low,3,The swim team recalled which lifeguard the swimmer had beaten during the race.
+42,diff,low,3,The swim team recalled which champion the swimmer had saved by giving CPR.
+43,diff,low,3,The teacher remembered which overacheiver the principal had punished after the scuffle.
+44,diff,low,3,The teacher remembered which delinquent the principal had praised for good grades.
+45,diff,low,3,The team manager knew which umpire the officials had penalized during the match.
+46,diff,low,3,The team manager knew which athlete the officials had selected to be at the game.
+47,diff,low,3,The pharmacist realized which specialist the physician had helped in the examination room.
+48,diff,low,3,The pharmacist realized which customer the physician had recommended for further analysis.
+49,diff,low,3,The woman understood which addict the psychiatrist had recommended to take a visit to.
+50,diff,low,3,The woman understood which pharmacist the psychiatrist had treated for several months.
+51,diff,low,3,The reporter mentioned which skeptic the psychic had read the future for.
+52,diff,low,3,The reporter mentioned which believer the psychic had convinced with her act.
+53,diff,low,3,The editor knew which tribesman the anthropologist had used for the expedition.
+54,diff,low,3,The editor knew which cameraman the anthropologist had studied for the last year.
+55,diff,low,3,The intern heard which patient the dentist had recommended for a follow-up.
+56,diff,low,3,The intern heard which surgeon the dentist had injured during the check-up.
+57,diff,low,3,The king saw which villain the superhero had saved from the fire.
+58,diff,low,3,The king saw which damsel the superhero had defeated in the battle.
+59,diff,low,3,The principal observed which troublemaker the teacher had praised for good work.
+60,diff,low,3,The principal  observed which perfectionist the teacher had punished for starting a fight.
+1,same,low,3,The neighbor inquired which exterminator the landlord had evicted from the apartment complex.
+2,same,low,3,The exterminator inquired which neighbor the landlord had hired for the job.
+3,same,low,3,The terrorist heard which comrade the corporal had captured during the stakeout.
+4,same,low,3,The comrade heard which terrorist the corporal had promoted in the army.
+5,same,low,3,The rascal saw which nerd the teacher had punished with a detention note.
+6,same,low,3,The nerd saw which rascal the teacher had praised in the classroom.
+7,same,low,3,The foodie wrote which waiter the chef had served at the restaurant.
+8,same,low,3,The waiter wrote which foodie the chef had yelled at for being incompetent.
+9,same,low,3,The addict forgot which doctor the therapist had treated at the clinic.
+10,same,low,3,The doctor forgot which addict the therapist had recommended for him to go to.
+11,same,low,3,The baby learned which teenager the mother had adopted several weeks ago.
+12,same,low,3,The teenager learned which baby the mother had punished for being late.
+13,same,low,3,The clerk revealed which customer the manager had promoted to a higher position.
+14,same,low,3,The patient heard which nurse the doctor had treated in the hospital room.
+15,same,low,3,The nurse heard which patient the doctor had hired to assist him.
+16,same,low,3,The ogre  revealed which maiden the hero had slain in the cave.
+17,same,low,3,The maiden revealed which ogre the hero had rescued after the fight.
+18,same,low,3,The troublemakers knew which barmaids the regulars had fought after getting drunk.
+19,same,low,3,The barmaids knew which troublemakers the regulars had tipped extra money to.
+20,same,low,3,The libelist  overheard which clerk the executive had sued at the court.
+21,same,low,3,The clerk overheard which libelist the executive had promoted in the company.
+22,same,low,3,The guests speculated which servants the master had invited to his manor.
+23,same,low,3,The servants speculated which guests the master had fired from the job.
+24,same,low,3,The sidekick announced which villain the superhero had chosen as his partner.
+25,same,low,3,The cheater stated which proctor the professor had caught during the exam.
+26,same,low,3,The proctor stated which cheater the professor had used for the final test.
+27,same,low,3,The hooligan deduced which victim the gangster had recruited for the assignment.
+28,same,low,3,The victim deduced which hooligan the gangster had robbed in the alleyway.
+29,same,low,3,The demons described which newts the sorceress had summoned with her spell.
+30,same,low,3,The newts described which demons the sorceress had used in the potion.
+91,diff,high,4,The investigator confirmed which gunman the criminal had hired during the heist.
+92,diff,high,4,The manager guessed which client the technician had helped earlier that day.
+93,diff,high,4,The monk recalled which sinner the priest had forgiven during the morning mass.
+94,diff,high,4,The movie buff speculated which actor the stuntman had replaced in the movie shot.
+95,diff,high,4,The police woman recognized which lieutenant the officer had promoted to a higher rank.
+96,diff,high,4,The politician forgot which voter the senator had bribed to help him win.
+97,diff,high,4,The priest mentioned which nonbeliever the nun had converted at the church.
+98,diff,high,4,The priestess named which warrior the deity had blessed during the prayer ceremony.
+99,diff,high,4,The principal forgot which parent the teacher had called to meet with.
+100,diff,high,4,The reviewer criticized which researchers the authors had cited in their paper.
+101,diff,high,4,The Roman asked which god the gladiator had prayed to before the battle.
+102,diff,high,4,The screenwriter clarified which viewers the director had targeted with his movie.
+103,diff,high,4,The scribe recorded which loyalists the monarch had rewarded with a casket of jewels.
+104,diff,high,4,The secretary confirmed which illustrator the author had used for her book.
+105,diff,high,4,The secretary knew which manager the CEO had promoted in his company.
+106,diff,high,4,The sentry knew which guard the captain had promoted to a more important position.
+107,diff,high,4,The snoop determined which bouncher the alcoholic had hit during a drunken rage.
+108,diff,high,4,The spectator remembered which batter the catcher had tagged out during the first half.
+109,diff,high,4,The stenographer recorded which defendant the judge had sentenced in the trial.
+110,diff,high,4,The woman indicated which bicyclist the driver had struck with his car.
+111,diff,high,4,The coach learned which fan the referee had yelled at during the time-out.
+112,diff,high,4,The mother stated which pediatrician  the nurse had recommended to regularily see.
+113,diff,high,4,The administrator recognized which pupil the tutor had taught math weekly to.
+114,diff,high,4,The fashion designer  guessed which techie the photographer had hired for the shoot.
+115,diff,high,4,The deputy deduced which hooligan the guard had detained during the fight.
+116,diff,high,4,The journalist reported which politician the activist had supported during the elections.
+117,diff,high,4,The street vendor saw which panhandler the shopkeeper had caught trying to steal.
+118,diff,high,4,The journalist knew which firefighter the mayor had awarded a medal to.
+119,diff,high,4,The assistant knew which engineer the boss had promoted earlier that week.
+120,diff,high,4,The movie buff learned which actor the director had cast for the role.
+61,same,high,4,The bartender saw which patron the owner had served a beer to.
+62,same,high,4,The patron saw which bartender the owner had fired from the position.
+63,same,high,4,The gambler knew which jockey the horse had thrown during the tourney.
+64,same,high,4,The administrator knew which dentist the kid had visited the previous day.
+65,same,high,4,The villager asked which pickpocket the tourist had caught trying to steal.
+66,same,high,4,The activist knew which boss the striker had targeted during the riot.
+67,same,high,4,The blogger explained which artists the DJ had played at the club.
+68,same,high,4,The lecturer guessed which freshman the TA had dated the previous semester.
+69,same,high,4,The announcer stated which wrestler the referee had disqualified from the match.
+70,same,high,4,The diplomat stated which prisoner the guard had beaten in the jailhouse.
+71,same,high,4,The clerk revealed which customer the manager had helped on the phone.
+72,same,high,4,The informant overheard which criminal the police had caught during the bust.
+73,same,high,4,The go-getter heard which slacker the boss had fired for being lazy.
+74,same,high,4,The tourist observed which biologist the zookeeper had hired for the exhibit.
+75,same,high,4,The customer guessed which employee the manager had fired for missing work.
+76,same,high,4,The admirer surmised which agent the actress had hired for the audition.
+77,same,high,4,The supporter reported which candidate the senator had defeated in the last election.
+78,same,high,4,The teammate stated which rival the player had defeated during the game.
+79,same,high,4,The applicant  verified which worker the employer had fired the previous month.
+80,same,high,4,The prophet saw which leper the wiseman had cured with his healing.
+81,same,high,4,The landlubber realized which stowaway the sailor had hidden in the cargo area.
+82,same,high,4,The juggler explained which child the clown had scared with his trick.
+83,same,high,4,The billionaire publicized which stylist the supermodel had used for the fashion show.
+84,same,high,4,The spectators reported which contestants the judges had chosen for the game show.
+85,same,high,4,The volunteer published which orphan the philanthropist had adopted at a young age.
+86,same,high,4,The linebacker heard which cheerleader the quarterback had dated during the semester.
+87,same,high,4,The supporter  knew which activist the dictator had imprisoned during the trials.
+88,same,high,4,The prince knew which queen the king had married in the palace.
+89,same,high,4,The traitor recorded which patriot the king had knighted during the ceremony.
+90,same,high,4,The rebel learned which mercenaries the emperor had employed to work for him.
+1,diff,low,4,The tenant inquired which exterminator the landlord had evicted from the apartment complex.
+2,diff,low,4,The tenant inquired which neighbor the landlord had hired for the job.
+3,diff,low,4,The general heard which comrade the corporal had captured during the stakeout.
+4,diff,low,4,The general heard which terrorist the corporal had promoted in the army.
+5,diff,low,4,The vice principal saw which nerd the teacher had punished with a detention note.
+6,diff,low,4,The vice principal saw which rascal the teacher had praised in the classroom.
+7,diff,low,4,The journalist wrote which waiter the chef had served at the restaurant.
+8,diff,low,4,The journalist wrote which foodie the chef had yelled at for being incompetent.
+9,diff,low,4,The secretary forgot which doctor the therapist had treated at the clinic.
+10,diff,low,4,The secretary forgot which addict the therapist had recommended for him to go to.
+11,diff,low,4,The babysitter learned which teenager the mother had adopted several weeks ago.
+12,diff,low,4,The babysitter learned which baby the mother had punished for being late.
+13,diff,low,4,The executive revealed which customer the manager had promoted to a higher position.
+14,diff,low,4,The administrator heard which nurse the doctor had treated in the hospital room.
+15,diff,low,4,The administrator heard which patient the doctor had hired to assist him.
+16,diff,low,4,The author revealed which maiden the hero had slain in the cave.
+17,diff,low,4,The author revealed which ogre the hero had rescued after the fight.
+18,diff,low,4,The bartender knew which barmaids the regulars had fought after getting drunk.
+19,diff,low,4,The bartender knew which troublemakers the regulars had tipped extra money to.
+20,diff,low,4,The businessman overheard which clerk the executive had sued at the court.
+21,diff,low,4,The businessman overheard which libelist the executive had promoted in the company.
+22,diff,low,4,The butler speculated which servants the master had invited to his manor.
+23,diff,low,4,The butler speculated which guests the master had fired from the job.
+24,diff,low,4,The comic book artist announced which villain the superhero had chosen as his partner.
+25,diff,low,4,The department chair stated which proctor the professor had caught during the exam.
+26,diff,low,4,The department chair stated which cheater the professor had used for the final test.
+27,diff,low,4,The deputy deduced which victim the gangster had recruited for the assignment.
+28,diff,low,4,The deputy deduced which hooligan the gangster had robbed in the alleyway.
+29,diff,low,4,The fairy princess described which newts the sorceress had summoned with her spell.
+30,diff,low,4,The fairy princess described which demons the sorceress had used in the potion.
+31,same,low,4,The opponent reported which voters the politician had defeated in the election.
+32,same,low,4,The voters reported which opponent the politician had bribed with his money.
+33,same,low,4,The goddess discovered which animal the caveman had worshipped with his murals.
+34,same,low,4,The animal discovered which goddess the caveman had eaten during the winter.
+35,same,low,4,The golddigger publicized which entrepreneur the millionaire had married the previous week.
+36,same,low,4,The entrepreneur publicized which golddigger the millionaire had invested in for the fiscal year.
+37,same,low,4,The assassin concealed which ex-president the agent had shot in the chest.
+38,same,low,4,The ex-president concealed which assassin the agent had protected from the bullet.
+39,same,low,4,The princess explained which dragon the prince had saved with his bravery.
+40,same,low,4,The dragon explained which princess the prince had slain with his sword.
+41,same,low,4,The champion recalled which lifeguard the swimmer had beaten during the race.
+42,same,low,4,The lifeguard recalled which champion the swimmer had saved by giving CPR.
+43,same,low,4,The delinquent remembered which overacheiver the principal had punished after the scuffle.
+44,same,low,4,The overacheiver remembered which delinquent the principal had praised for good grades.
+45,same,low,4,The athlete knew which umpire the officials had penalized during the match.
+46,same,low,4,The umpire knew which athlete the officials had selected to be at the game.
+47,same,low,4,The customer realized which specialist the physician had helped in the examination room.
+48,same,low,4,The specialist realized which customer the physician had recommended for further analysis.
+49,same,low,4,The pharmicist understood which addict the psychiatrist had recommended to take a visit to.
+50,same,low,4,The addict understood which pharmacist the psychiatrist had treated for several months.
+51,same,low,4,The believer mentioned which skeptic the psychic had read the future for.
+52,same,low,4,The skeptic mentioned which believer the psychic had convinced with her act.
+53,same,low,4,The cameraman knew which tribesman the anthropologist had used for the expedition.
+54,same,low,4,The tribesman knew which cameraman the anthropologist had studied for the last year.
+55,same,low,4,The surgeon heard which patient the dentist had recommended for a follow-up.
+56,same,low,4,The patient heard which surgeon the dentist had injured during the check-up.
+57,same,low,4,The damsel saw which villain the superhero had saved from the fire.
+58,same,low,4,The villain saw which damsel the superhero had defeated in the battle.
+59,same,low,4,The perfectionist observed which troublemaker the teacher had praised for good work.
+60,same,low,4,The troublemaker observed which perfectionist the teacher had punished for starting a fight.
