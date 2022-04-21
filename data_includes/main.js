@@ -30,7 +30,7 @@ newTrial( "welcome" ,
     ,
     newText("<p>For each sentence, decide whether the sentence need to be modified.</p>")
     ,
-    newText("<p>Re-type the ENTIRE sentence in the input box if the sentence need correction. </p>")
+    newText("<p>Make MINIMAL edits needed and type the ENTIRE sentence in the input box. </p>")
     ,
     newText("<p>If the sentence looks good, re-type the original sentence in the input box. </p>")
     ,
