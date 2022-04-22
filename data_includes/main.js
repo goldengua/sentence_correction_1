@@ -5,7 +5,7 @@ PennController.ResetPrefix(null); // Initiates PennController
 
 // Start typing your code here
 
-Sequence( "consent","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","experiment_intro", randomize("experiment"), "send" , "final" )
+Sequence( "consent","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment"), "send" , "final" )
 newTrial("consent",
     newHtml("consent_form", "consent.html")
         .cssContainer({"width":"720px"})
@@ -26,11 +26,13 @@ newTrial( "welcome" ,
     ,
     newText("<p>Welcome!</p>")
     ,
-    newText("<p>We are annotating human speech data, and we need your help to find out errors in the transcription.</p>")
+    newText("<p>We are annotating human speech data, and we need your help to find out speech errors in the transcription.</p>")
     ,
     newText("<p>For each sentence, decide whether the sentence need to be modified.</p>")
     ,
     newText("<p>Make MINIMAL edits needed and type the ENTIRE sentence in the input box. </p>")
+    ,
+    newText("<p>You may want to change the position of two words, delete some characters, or use a different word to make the sentence right. </p>")
     ,
     newText("<p>If the sentence looks good, re-type the original sentence in the input box. </p>")
     ,
@@ -57,7 +59,7 @@ newTrial( "practice 1" ,
     defaultText
         .print()
     ,
-    newText("This sentence has a grammatical error.")
+    newText("This sentence contains a speech error.")
         .italic()
     ,
     newText("The corrected sentence is: ")
@@ -136,7 +138,7 @@ newTrial( "practice 3" ,
     defaultText
         .print()
     ,
-    newText("This sentence does not have grammatical errors, but it is describing an unlikely event. ")
+    newText("This sentence might have a speech error because customer does not often serve waitress. ")
         .italic()
     ,
     newText("The sentence might be corrected into:")
@@ -176,7 +178,7 @@ newTrial( "practice 4" ,
     defaultText
         .print()
     ,
-    newText("This sentence does not have grammatical errors, but custom is unlikely to appear here.")
+    newText("This sentence has a speech error, because waitress does not often serve custom. ")
         .italic()
     ,
     newText("The sentence might be corrected into:")
@@ -212,12 +214,40 @@ newTrial( "practice 4" ,
         .wait()
 )
 
-
-newTrial( "experiment_intro",
+newTrial( "practice 5" ,
     defaultText
         .print()
     ,
-    newText("<p>Now let us start working on the real annotations. </p>")
+    newText("This sentence has a speech error. ")
+        .italic()
+    ,
+    newText("The sentence might be corrected into:")
+        .italic()
+    ,
+    newText("The waitress served the customer.")
+        .italic()
+        .bold()
+    ,
+    newText("Please type the corrected sentence in the textbox, and select a moderate confidence level.")
+        .italic()
+    ,
+    newText("<p>   </p>")
+    ,
+    newText("<p>The waitress served the custom, hmm, customer. </p>")
+    ,
+    newTextInput("correction", "")
+    .log()
+    .lines(0)
+    .size(400, 25)
+    .print()
+    ,
+   
+    newScale("score", 100)
+    .slider()
+    .before( newText("score label", "Confidence: ") )
+    .after( newText("score text", " / 100") )
+    .print()
+    .wait()
     ,
     newButton("Continue")
         .print()
