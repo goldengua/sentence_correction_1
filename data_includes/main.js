@@ -28,6 +28,9 @@ newTrial("intro",
     newButton("continue", "Click to continue")
         .center()
         .print()
+        .wait(getHtml("intro").test.complete()
+.failure(getHtml("intro").warn())
+        )
 )
 
 newTrial( "welcome" ,
