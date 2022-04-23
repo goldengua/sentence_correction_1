@@ -304,7 +304,7 @@ SendResults( "send" )
 
 
 newTrial("exit",
-    newHtml("exit", ".html")
+    newHtml("exit", "exit.html")
         .print()
     ,
     newButton("continue", "Click to continue")
