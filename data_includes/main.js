@@ -310,6 +310,10 @@ newTrial("exit",
     newButton("continue", "Click to continue")
         .center()
         .print()
+        .wait(getHtml("exit").test.complete()
+                  
+.failure(getHtml("exit").warn())
+        )
 )
 newTrial( "final" ,
     newText("<p>Thank you for your participation!</p>")
