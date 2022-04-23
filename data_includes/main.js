@@ -20,6 +20,16 @@ newTrial("consent",
 .failure(getHtml("consent_form").warn())
         )
 )
+
+newTrial("intro",
+    newHtml("intro", "intro.html")
+        .print()
+    ,
+    newButton("continue", "Click to continue")
+        .center()
+        .print()
+)
+
 newTrial( "welcome" ,
     defaultText
         .print()
@@ -288,6 +298,16 @@ Template( variable =>
 .log('cloze',variable.cloze)
 )
 SendResults( "send" )
+
+
+newTrial("exit",
+    newHtml("exit", ".html")
+        .print()
+    ,
+    newButton("continue", "Click to continue")
+        .center()
+        .print()
+)
 newTrial( "final" ,
     newText("<p>Thank you for your participation!</p>")
         .print()
