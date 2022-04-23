@@ -5,7 +5,7 @@ PennController.ResetPrefix(null); // Initiates PennController
 
 // Start typing your code here
 
-Sequence( "consent","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment"), "send" , "final" )
+Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment"), "send" ,"exit", "final" )
 newTrial("consent",
     newHtml("consent_form", "consent.html")
         .cssContainer({"width":"720px"})
@@ -20,6 +20,19 @@ newTrial("consent",
 .failure(getHtml("consent_form").warn())
         )
 )
+
+newTrial("intro",
+    newHtml("intro", "intro.html")
+        .print()
+    ,
+    newButton("continue", "Click to continue")
+        .center()
+        .print()
+        .wait(getHtml("intro").test.complete()
+.failure(getHtml("intro").warn())
+        )
+)
+
 newTrial( "welcome" ,
     defaultText
         .print()
@@ -288,6 +301,20 @@ Template( variable =>
 .log('cloze',variable.cloze)
 )
 SendResults( "send" )
+
+
+newTrial("exit",
+    newHtml("exit", "exit.html")
+        .print()
+    ,
+    newButton("continue", "Click to continue")
+        .center()
+        .print()
+        .wait(getHtml("exit").test.complete()
+                  
+.failure(getHtml("exit").warn())
+        )
+)
 newTrial( "final" ,
     newText("<p>Thank you for your participation!</p>")
         .print()
