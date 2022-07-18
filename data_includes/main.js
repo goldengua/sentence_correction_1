@@ -24,7 +24,7 @@ newTrial("consent",
 newTrial("intro",
     newHtml("intro", "intro.html")
         .print()
-        .log()
+        //.log()
     ,
     newButton("continue", "Click to continue")
         .center()
@@ -306,7 +306,7 @@ SendResults( "send" )
 newTrial("exit",
     newHtml("exit", "exit.html")
         .print()
-        .log()
+        //.log()
     ,
     newButton("continue", "Click to continue")
         .center()
