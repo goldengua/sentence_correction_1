@@ -279,8 +279,7 @@ Template( variable =>
     .log()
     .lines(0)
     .size(450, 25)
-    .print()
-    .wait()        
+    .print()       
     ,
    
     newScale("score", 100)
