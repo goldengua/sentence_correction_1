@@ -303,8 +303,6 @@ Template( variable =>
 .log('group',variable.group)
 .log('condition',variable.condition)
 )
-SendResults( "send" )
-
 
 newTrial("exit",
     newHtml("exit", "exit.html")
@@ -319,6 +317,7 @@ newTrial("exit",
 .failure(getHtml("exit").warn())
         )
 )
+SendResults( "send" )
 newTrial( "final" ,
     newText("<p>Thank you for your participation!</p>")
         .print(),
