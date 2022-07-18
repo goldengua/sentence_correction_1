@@ -261,10 +261,5 @@ SendResults( "send" )
 newTrial( "final" ,
     newText("<p>Thank you for your participation!</p>")
         .print()
-    ,
-    newText("<p><a href='https://www.pcibex.net/' href='_blank'>Click here to validate your participation.</a></p>")
-        .print()
-    ,
-    newButton("void")
-        .wait()
+
 )
