@@ -321,6 +321,8 @@ newTrial("exit",
 )
 newTrial( "final" ,
     newText("<p>Thank you for your participation!</p>")
-        .print()
+        .print(),
+    newButton("void")
+        .wait()
     
 )
