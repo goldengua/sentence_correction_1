@@ -280,6 +280,7 @@ Template( variable =>
     .lines(0)
     .size(450, 25)
     .print()
+    .wait()        
     ,
    
     newScale("score", 100)
