@@ -298,8 +298,7 @@ Template( variable =>
 .log('item',variable.item)
 .log('sentence',variable.sentence)
 .log('group',variable.group)
-.log('type',variable.type)
-.log('cloze',variable.cloze)
+.log('condition',variable.condition)
 )
 SendResults( "send" )
 
