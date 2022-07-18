@@ -7,7 +7,7 @@ PennController.ResetPrefix(null); // Initiates PennController
 
 //Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment"), "send" ,"exit", "final" )
 //for testing
-Sequence( "consent","experiment_intro", randomize("experiment"), "send" ,"exit", "final" )
+Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "send" ,"exit", "final" )
 
 newTrial("consent",
     newHtml("consent_form", "consent.html")
@@ -283,7 +283,6 @@ Template( variable =>
     .lines(0)
     .size(450, 25)
     .print()
-    .wait("first")
     ,
    
     newScale("score", 100)
