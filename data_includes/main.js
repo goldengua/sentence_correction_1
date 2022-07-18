@@ -317,9 +317,12 @@ newTrial("exit",
 .failure(getHtml("exit").warn())
         )
 )
+
+
 SendResults( "send" )
+
 newTrial( "final" ,
-    newText("<p>Thank you for your participation!</p>")
+    newText("<p>Thank you for your participation! Your results have been successfully sent to the server. </p>")
         .print(),
     newButton("void")
         .wait()
