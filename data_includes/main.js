@@ -43,15 +43,15 @@ newTrial( "welcome" ,
     ,
     newText("<p>Welcome!</p>")
     ,
-    newText("<p>We are annotating human speech data, and we need your help to find out speech errors in the transcription.</p>")
+    newText("<p>We are annotating language data, and we need your help to find out typos or speech errors in the transcription.</p>")
     ,
     newText("<p>For each sentence, decide whether the sentence need to be modified.</p>")
     ,
-    newText("<p>Make MINIMAL edits needed and type the ENTIRE sentence in the input box. </p>")
+    newText("<p>Make MINIMAL edits in the textbox to correct the sentence. </p>")
     ,
-    newText("<p>You may want to change the position of two words, delete some characters, or use a different word to make the sentence right. </p>")
+    newText("<p>You may want to delete, insert or substitute some characters in the word to make the sentence right. </p>")
     ,
-    newText("<p>If the sentence looks good, re-type the original sentence in the input box. </p>")
+    newText("<p>If the sentence looks good, leave it unchanged. </p>")
     ,
     newText("<p>Indicate your confidence level with the slider below. </p>")
     ,
@@ -76,7 +76,7 @@ newTrial( "practice 1" ,
     defaultText
         .print()
     ,
-    newText("This sentence contains a speech error.")
+    newText("This sentence contains an error.")
         .italic()
     ,
     newText("The corrected sentence is: ")
@@ -86,7 +86,7 @@ newTrial( "practice 1" ,
         .italic()
         .bold()
     ,
-    newText("Please type the corrected sentence in the textbox, and select a high confidence level.")
+    newText("Please change 'devouring' into 'devoured' in the textbox, and select a high confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
@@ -125,14 +125,14 @@ newTrial( "practice 2" ,
         .italic()
         .bold()
     ,
-    newText("Please type the corrected/original sentence in the textbox, and select a high confidence level.")
+    newText("Please leave sentence in the textbox unchanged, and select a high confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
     ,
     newText("<p>The hearty meal was devoured by the boy.")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "The hearty meal was devoured by the boy.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -155,24 +155,24 @@ newTrial( "practice 3" ,
     defaultText
         .print()
     ,
-    newText("This sentence might have a speech error because customer does not often serve waitress. ")
+    newText("In this sentence, 'book' might be misspelled as 'hook'. ")
         .italic()
     ,
     newText("The sentence might be corrected into:")
         .italic()
     ,
-    newText("The waitress served the customer.")
+    newText("Mary went to the library to borrow a book")
         .italic()
         .bold()
     ,
-    newText("Please type the corrected sentence in the textbox, and select a lower confidence level.")
+    newText("Please change 'hook' into 'book' in the textbox, and select a high confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The customer served the waitress.</p>")
+    newText("<p>Mary went to the library to borrow a hook.</p>")
     ,
-    newTextInput("correction", "The customer served the waitress.")
+    newTextInput("correction", "Mary went to the library to borrow a hook.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -195,24 +195,24 @@ newTrial( "practice 4" ,
     defaultText
         .print()
     ,
-    newText("This sentence has a speech error, because waitress does not often serve custom. ")
+    newText("Mary went to the library to borrow a plant.")
         .italic()
     ,
-    newText("The sentence might be corrected into:")
+    newText("This sentence does not look right, but it is difficult to think of its intended meaning.")
         .italic()
     ,
-    newText("The waitress served the customer.")
+    newText("You might want to correct 'plant' to 'book', or leave it unchanged.")
         .italic()
         .bold()
     ,
-    newText("Please type the corrected sentence in the textbox, and select a moderate confidence level.")
+    newText("Please choose to correct or not to correct 'plant', and select a low confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The waitress served the custom.</p>")
+    newText("<p>Mary went to the library to borrow a plant.</p>")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "Mary went to the library to borrow a plant.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -235,24 +235,24 @@ newTrial( "practice 5" ,
     defaultText
         .print()
     ,
-    newText("This sentence has a speech error. ")
+    newText("This sentence has a typo. ")
         .italic()
     ,
     newText("The sentence might be corrected into:")
         .italic()
     ,
-    newText("The waitress served the customer.")
+    newText("Mary went to the library to borrow a book.")
         .italic()
         .bold()
     ,
-    newText("Please type the corrected sentence in the textbox, and select a moderate confidence level.")
+    newText("Please change 'books' into 'book' in the textbox, and select a high confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The waitress served the custom, hmm, customer. </p>")
+    newText("<p>Mary went to the library to borrow a books. </p>")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "Mary went to the library to borrow a books.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -278,7 +278,7 @@ Template( variable =>
     ,
     newText("sentence",variable.sentence)
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", variable.sentence)
     .log()
     .lines(0)
     .size(450, 25)
