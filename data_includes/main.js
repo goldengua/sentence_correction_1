@@ -93,7 +93,7 @@ newTrial( "practice 1" ,
     ,
     newText("<p>The hearty meal was devouring by the boy.<p>")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "The hearty meal was devouring by the boy.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -172,7 +172,7 @@ newTrial( "practice 3" ,
     ,
     newText("<p>The customer served the waitress.</p>")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "The customer served the waitress.")
     .log()
     .lines(0)
     .size(400, 25)
