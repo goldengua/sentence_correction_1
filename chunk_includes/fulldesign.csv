@@ -1,4 +1,4 @@
-item,condition,sentence,group
+ item,condition,sentence,group
 1,Control,Someone who has fought in a war is a veteran.,1
 2,Control,The woman brought her sick pet dog to a veterinarian.,1
 3,Control,The vintage wedding dress was big and required an alteration.,1
@@ -39,7 +39,7 @@ item,condition,sentence,group
 38,Control,One window on the dilapidated house was missing a shutter.,11
 39,Control,Rupert Murdoch is the owner of a vast media empire.,11
 40,Control,The baseball player felt cheated and swore at an umpire.,11
-41,Control,The Caribbean cruise package includes this kayaking‚ and snorkeling excursion.,2
+41,Control,The Caribbean cruise package includes this kayaking√¢ and snorkeling excursion.,2
 42,Control,He had sprinted and was still sweating from this exertion.,2
 43,Control,The study of sounds in language is known as phonology.,2
 44,Control,The pseudoscience of inferring personality from skull measurements is phrenology.,2
@@ -199,7 +199,7 @@ item,condition,sentence,group
 38,Sem,One window on the dilapidated house was missing a migrant.,12
 39,Sem,Rupert Murdoch is the owner of a vast media meditation.,12
 40,Sem,The baseball player felt cheated and swore at a coronation.,12
-41,Sem,The Caribbean cruise package includes this kayaking‚ and snorkeling irritation.,3
+41,Sem,The Caribbean cruise package includes this kayaking√¢ and snorkeling irritation.,3
 42,Sem,He had sprinted and was still sweating from this cardinal.,3
 43,Sem,The study of sounds in language is known as leisure.,3
 44,Sem,The pseudoscience of inferring personality from skull measurements is saffron.,3
@@ -359,7 +359,7 @@ item,condition,sentence,group
 38,Synt,One window on the dilapidated house was missing a shutters.,13
 39,Synt,Rupert Murdoch is the owner of a vast media empires.,13
 40,Synt,The baseball player felt cheated and swore at an umpires.,13
-41,Synt,The Caribbean cruise package includes this kayaking‚ and snorkeling excursions.,4
+41,Synt,The Caribbean cruise package includes this kayaking√¢ and snorkeling excursions.,4
 42,Synt,He had sprinted and was still sweating from this exertions.,4
 43,Synt,The study of sounds in language is known as phonologies.,4
 44,Synt,The pseudoscience of inferring personality from skull measurements is phrenologies.,4
@@ -519,7 +519,7 @@ item,condition,sentence,group
 38,SemCrit,One window on the dilapidated house was missing a shudder.,14
 39,SemCrit,Rupert Murdoch is the owner of a vast media umpire.,14
 40,SemCrit,The baseball player felt cheated and swore at an empire.,14
-41,SemCrit,The Caribbean cruise package includes this kayaking‚ and snorkeling exertion.,1
+41,SemCrit,The Caribbean cruise package includes this kayaking√¢ and snorkeling exertion.,1
 42,SemCrit,He had sprinted and was still sweating from this excursion.,1
 43,SemCrit,The study of sounds in language is known as phrenology.,1
 44,SemCrit,The pseudoscience of inferring personality from skull measurements is phonology.,1
