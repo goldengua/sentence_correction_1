@@ -281,7 +281,7 @@ Template( variable =>
     newTextInput("correction", variable.sentence)
     .log()
     .lines(0)
-    .size(450, 25)
+    .size(450, 35)
     .print()
     ,
    
