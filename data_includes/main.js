@@ -5,9 +5,9 @@ PennController.ResetPrefix(null); // Initiates PennController
 
 // Start typing your code here
 
-//Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment"), "send" ,"exit", "final" )
+Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment"), "send" ,"exit", "final" )
 //for testing
-Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "send" ,"exit", "final" )
+//Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "send" ,"exit", "final" )
 
 newTrial("consent",
     newHtml("consent_form", "consent.html")
