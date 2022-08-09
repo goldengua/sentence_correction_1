@@ -43,15 +43,15 @@ newTrial( "welcome" ,
     ,
     newText("<p>Welcome!</p>")
     ,
-    newText("<p>We are annotating language data, and we need your help to find out typos or speech errors in the transcription.</p>")
+    newText("<p>We are annotating human speech data, and we need your help to find out typos or speech errors in the transcription.</p>")
     ,
-    newText("<p>For each sentence, decide whether the sentence need to be modified.</p>")
+    newText("<p>For each sentence, decide what is INTENDED by the speaker, and correct it accordingly. </p>")
     ,
     newText("<p>Make MINIMAL edits in the textbox to correct the sentence. </p>")
     ,
-    newText("<p>You may want to delete, insert or substitute some characters in the word to make the sentence right. </p>")
+    newText("<p>You may want to delete, insert or substitute some characters in the FINAL word to make the sentence right. </p>")
     ,
-    newText("<p>If the sentence looks good, leave it unchanged. </p>")
+    newText("<p>If the sentence looks good, or you are unsure what is the intended meaning, leave it unchanged. </p>")
     ,
     newText("<p>Indicate your confidence level with the slider below. </p>")
     ,
@@ -76,13 +76,10 @@ newTrial( "practice 1" ,
     defaultText
         .print()
     ,
-    newText("This sentence contains an error.")
+    newText("This sentence looks wrong, and it can easily be fixed as:")
         .italic()
     ,
-    newText("The corrected sentence is: ")
-        .italic()
-    ,
-    newText("The hearty meal was devoured by the boy.")
+    newText("The hearty meal was devoured.")
         .italic()
         .bold()
     ,
@@ -91,9 +88,9 @@ newTrial( "practice 1" ,
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The hearty meal was devouring by the boy.<p>")
+    newText("<p>The hearty meal was devouring.<p>")
     ,
-    newTextInput("correction", "The hearty meal was devouring by the boy.")
+    newTextInput("correction", "The hearty meal was devouring.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -115,13 +112,10 @@ newTrial( "practice 2" ,
     defaultText
         .print()
     ,
-    newText("This sentence is correct.")
+    newText("This sentence looks good, so the corrected sentence is the same as the original:")
         .italic()
     ,
-    newText("The corrected sentence is the same as the original: ")
-        .italic()
-    ,
-    newText("The hearty meal was devoured by the boy.")
+    newText("The hearty meal was devoured.")
         .italic()
         .bold()
     ,
@@ -130,9 +124,9 @@ newTrial( "practice 2" ,
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The hearty meal was devoured by the boy.")
+    newText("<p>The hearty meal was devoured.")
     ,
-    newTextInput("correction", "The hearty meal was devoured by the boy.")
+    newTextInput("correction", "The hearty meal was devoured.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -155,7 +149,7 @@ newTrial( "practice 3" ,
     defaultText
         .print()
     ,
-    newText("In this sentence, 'book' might be misspelled as 'hook'. ")
+    newText("This sentence looks strange, and 'book' might be misspelled as 'hook'. ")
         .italic()
     ,
     newText("The sentence might be corrected into:")
@@ -198,10 +192,10 @@ newTrial( "practice 4" ,
     newText("Mary went to the library to borrow a plant.")
         .italic()
     ,
-    newText("This sentence does not look right, but it is difficult to think of its intended meaning.")
+    newText("This sentence looks strange, but it is difficult to think of its intended meaning.")
         .italic()
     ,
-    newText("You might want to correct 'plant' to 'book', or leave it unchanged.")
+    newText("You can try to make it less strange by changing 'plant' into a word with similar spelling (e.g. plan), or just leave it unchanged.")
         .italic()
         .bold()
     ,
