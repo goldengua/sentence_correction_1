@@ -45,7 +45,7 @@ newTrial( "welcome" ,
     ,
     newText("<p>We are annotating human speech data, and we need your help to find out typos or speech errors in the transcription.</p>")
     ,
-    newText("<p>For each sentence, decide what is INTENDED by the speaker, and correct it accordingly. </p>")
+    newText("<p>For each sentence, guess what is INTENDED by the speaker, and correct it accordingly. </p>")
     ,
     newText("<p>Make MINIMAL edits in the textbox to correct the sentence. </p>")
     ,
