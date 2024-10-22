@@ -5,7 +5,10 @@ PennController.ResetPrefix(null); // Initiates PennController
 
 // Start typing your code here
 
-Sequence( "consent","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","experiment_intro", randomize("experiment"), "send" , "final" )
+Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment") ,"exit","send", "final" )
+//for testing
+//Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "send" ,"exit", "final" )
+
 newTrial("consent",
     newHtml("consent_form", "consent.html")
         .cssContainer({"width":"720px"})
@@ -20,19 +23,37 @@ newTrial("consent",
 .failure(getHtml("consent_form").warn())
         )
 )
+
+newTrial("intro",
+    newHtml("intro", "intro.html")
+        .print()
+        .log()
+    ,
+    newButton("continue", "Click to continue")
+        .center()
+        .print()
+        .wait(getHtml("intro").test.complete()
+.failure(getHtml("intro").warn())
+        )
+        ,
+   getHtml("intro").log()
+)
+
 newTrial( "welcome" ,
     defaultText
         .print()
     ,
     newText("<p>Welcome!</p>")
     ,
-    newText("<p>We are annotating human speech data, and we need your help to find out errors in the transcription.</p>")
+    newText("<p>We are annotating human speech data, and we need your help to find out typos or speech errors in the transcription.</p>")
     ,
-    newText("<p>For each sentence, decide whether the sentence need to be modified.</p>")
+    newText("<p>For each sentence, guess what is INTENDED by the speaker, and correct it accordingly. </p>")
     ,
-    newText("<p>Make MINIMAL edits needed and type the ENTIRE sentence in the input box. </p>")
+    newText("<p>Make MINIMAL edits in the textbox to correct the sentence. </p>")
     ,
-    newText("<p>If the sentence looks good, re-type the original sentence in the input box. </p>")
+    newText("<p>You may want to delete, insert or substitute some characters in the FINAL word to make the sentence right. </p>")
+    ,
+    newText("<p>If the sentence looks good, or you are unsure what is the intended meaning, leave it unchanged. </p>")
     ,
     newText("<p>Indicate your confidence level with the slider below. </p>")
     ,
@@ -57,24 +78,21 @@ newTrial( "practice 1" ,
     defaultText
         .print()
     ,
-    newText("This sentence has a grammatical error.")
+    newText("This sentence looks wrong, and it can easily be fixed as:")
         .italic()
     ,
-    newText("The corrected sentence is: ")
-        .italic()
-    ,
-    newText("The hearty meal was devoured by the boy.")
+    newText("The hearty meal was devoured.")
         .italic()
         .bold()
     ,
-    newText("Please type the corrected sentence in the textbox, and select a high confidence level.")
+    newText("Please change 'devouring' into 'devoured' in the textbox, and select a high confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The hearty meal was devouring by the boy.<p>")
+    newText("<p>The hearty meal was devouring.<p>")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "The hearty meal was devouring.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -96,24 +114,21 @@ newTrial( "practice 2" ,
     defaultText
         .print()
     ,
-    newText("This sentence is correct.")
+    newText("This sentence looks good, so the corrected sentence is the same as the original:")
         .italic()
     ,
-    newText("The corrected sentence is the same as the original: ")
-        .italic()
-    ,
-    newText("The hearty meal was devoured by the boy.")
+    newText("The hearty meal was devoured.")
         .italic()
         .bold()
     ,
-    newText("Please type the corrected/original sentence in the textbox, and select a high confidence level.")
+    newText("Please leave sentence in the textbox unchanged, and select a high confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The hearty meal was devoured by the boy.")
+    newText("<p>The hearty meal was devoured.")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "The hearty meal was devoured.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -136,24 +151,24 @@ newTrial( "practice 3" ,
     defaultText
         .print()
     ,
-    newText("This sentence does not have grammatical errors, but it is describing an unlikely event. ")
+    newText("This sentence looks strange, and 'book' might be misspelled as 'hook'. ")
         .italic()
     ,
     newText("The sentence might be corrected into:")
         .italic()
     ,
-    newText("The waitress served the customer.")
+    newText("Mary went to the library to borrow a book")
         .italic()
         .bold()
     ,
-    newText("Please type the corrected sentence in the textbox, and select a lower confidence level.")
+    newText("Please change 'hook' into 'book' in the textbox, and select a high confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The customer served the waitress.</p>")
+    newText("<p>Mary went to the library to borrow a hook.</p>")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "Mary went to the library to borrow a hook.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -176,24 +191,24 @@ newTrial( "practice 4" ,
     defaultText
         .print()
     ,
-    newText("This sentence does not have grammatical errors, but custom is unlikely to appear here.")
+    newText("Mary went to the library to borrow a plant.")
         .italic()
     ,
-    newText("The sentence might be corrected into:")
+    newText("This sentence looks strange, but it is difficult to think of its intended meaning.")
         .italic()
     ,
-    newText("The waitress served the customer.")
+    newText("You can try to make it less strange by changing 'plant' into a word with similar spelling (e.g. plan), or just leave it unchanged.")
         .italic()
         .bold()
     ,
-    newText("Please type the corrected sentence in the textbox, and select a moderate confidence level.")
+    newText("Please choose to correct or not to correct 'plant', and select a low confidence level.")
         .italic()
     ,
     newText("<p>   </p>")
     ,
-    newText("<p>The waitress served the custom.</p>")
+    newText("<p>Mary went to the library to borrow a plant.</p>")
     ,
-    newTextInput("correction", "")
+    newTextInput("correction", "Mary went to the library to borrow a plant.")
     .log()
     .lines(0)
     .size(400, 25)
@@ -212,12 +227,40 @@ newTrial( "practice 4" ,
         .wait()
 )
 
-
-newTrial( "experiment_intro",
+newTrial( "practice 5" ,
     defaultText
         .print()
     ,
-    newText("<p>Now let us start working on the real annotations. </p>")
+    newText("This sentence has a typo. ")
+        .italic()
+    ,
+    newText("The sentence might be corrected into:")
+        .italic()
+    ,
+    newText("Mary went to the library to borrow a book.")
+        .italic()
+        .bold()
+    ,
+    newText("Please change 'books' into 'book' in the textbox, and select a high confidence level.")
+        .italic()
+    ,
+    newText("<p>   </p>")
+    ,
+    newText("<p>Mary went to the library to borrow a books. </p>")
+    ,
+    newTextInput("correction", "Mary went to the library to borrow a books.")
+    .log()
+    .lines(0)
+    .size(400, 25)
+    .print()
+    ,
+   
+    newScale("score", 100)
+    .slider()
+    .before( newText("score label", "Confidence: ") )
+    .after( newText("score text", " / 100") )
+    .print()
+    .wait()
     ,
     newButton("Continue")
         .print()
@@ -229,15 +272,18 @@ Template( variable =>
     defaultText
         .print()
     ,
-    newText("sentence",variable.sentence)
+    newText("context",variable.context)
     ,
-    newTextInput("correction", "")
-    .log()
-    .lines(0)
-    .size(450, 25)
-    .print()
+    newText("stimulus","<b>"+variable.stimulus+"</b>")
     ,
-   
+    newText('<br>')
+    ,
+    newTextInput("correction", variable.stimulus)
+        .log()
+        .lines(0)
+        .size(Math.max(500, variable.stimulus.length * 10), 40) // Adjust size based on text length
+        .print()
+    ,
     newScale("score", 100)
     .slider()
     .before( newText("score label", "Confidence: ") )
@@ -252,19 +298,37 @@ Template( variable =>
     
 )
 .log('item',variable.item)
-.log('sentence',variable.sentence)
+.log('uttrID',variable.uttrID)
+.log('context',variable.context)
+.log('error',variable.error)
+.log('pos',variable.error_uPOS)
+.log('sentence',variable.stimulus)
 .log('group',variable.group)
-.log('type',variable.type)
-.log('cloze',variable.cloze)
+.log('condition',variable.condition)
 )
+
+newTrial("exit",
+    newHtml("exit", "exit.html")
+        .print()
+        .log()
+    ,
+    newButton("continue", "Click to continue")
+        .center()
+        .print()
+        .wait(getHtml("exit").test.complete()
+                  
+.failure(getHtml("exit").warn())
+        )
+    ,
+   getHtml("exit").log("prolific_id")
+)
+
 SendResults( "send" )
+
 newTrial( "final" ,
-    newText("<p>Thank you for your participation!</p>")
-        .print()
-    ,
-    newText("<p><a href='https://www.pcibex.net/' href='_blank'>Click here to validate your participation.</a></p>")
-        .print()
-    ,
+    newText("<p>Thank you for your participation! Your results have been successfully sent to the server. </p>")
+        .print(),
     newButton("void")
         .wait()
+    
 )
