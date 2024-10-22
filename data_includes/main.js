@@ -5,7 +5,7 @@ PennController.ResetPrefix(null); // Initiates PennController
 
 // Start typing your code here
 
-Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment"), "send" ,"exit", "final" )
+Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "practice 3", "practice 4","practice 5","experiment_intro", randomize("experiment") ,"exit","send", "final" )
 //for testing
 //Sequence( "consent","intro","welcome", "practice_intro", "practice 1", "practice 2", "send" ,"exit", "final" )
 
@@ -35,6 +35,8 @@ newTrial("intro",
         .wait(getHtml("intro").test.complete()
 .failure(getHtml("intro").warn())
         )
+        ,
+   getHtml("intro").log()
 )
 
 newTrial( "welcome" ,
@@ -270,15 +272,18 @@ Template( variable =>
     defaultText
         .print()
     ,
-    newText("sentence",variable.sentence)
+    newText("context",variable.context)
     ,
-    newTextInput("correction", variable.sentence)
-    .log()
-    .lines(0)
-    .size(500, 40)
-    .print()
+    newText("stimulus","<b>"+variable.stimulus+"</b>")
     ,
-   
+    newText('<br>')
+    ,
+    newTextInput("correction", variable.stimulus)
+        .log()
+        .lines(0)
+        .size(Math.max(500, variable.stimulus.length * 10), 40) // Adjust size based on text length
+        .print()
+    ,
     newScale("score", 100)
     .slider()
     .before( newText("score label", "Confidence: ") )
@@ -293,7 +298,11 @@ Template( variable =>
     
 )
 .log('item',variable.item)
-.log('sentence',variable.sentence)
+.log('uttrID',variable.uttrID)
+.log('context',variable.context)
+.log('error',variable.error)
+.log('pos',variable.error_uPOS)
+.log('sentence',variable.stimulus)
 .log('group',variable.group)
 .log('condition',variable.condition)
 )
@@ -310,8 +319,9 @@ newTrial("exit",
                   
 .failure(getHtml("exit").warn())
         )
+    ,
+   getHtml("exit").log("prolific_id")
 )
-
 
 SendResults( "send" )
 
