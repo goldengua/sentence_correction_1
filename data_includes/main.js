@@ -69,6 +69,8 @@ Template( "practice.csv",variable =>
     ,
     newText("stimulus","<b>"+variable.stimulus+"</b><br>")
     ,
+    newText("explanation","<br><b>Explanation</>:"+variable.explanation)
+    ,
     newTextInput("correction", variable.stimulus)
         .log()
         .lines(0)
@@ -83,8 +85,6 @@ Template( "practice.csv",variable =>
     .wait()
     .log()
     ,
-    newText("explanation","<br>"+variable.explanation)
-    ,
     newButton("Continue")
         .print()
         .wait()
@@ -94,9 +94,8 @@ Template( "practice.csv",variable =>
 .log('uttrID',variable.uttrID)
 .log('context',variable.context)
 .log('error',variable.error)
-.log('pos',variable.error_uPOS)
+.log('pos',variable.intended)
 .log('sentence',variable.stimulus)
-.log('condition',variable.condition)
 )
 
 newTrial( "experiment_intro" ,
