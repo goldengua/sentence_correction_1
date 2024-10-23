@@ -102,7 +102,7 @@ newTrial( "experiment_intro" ,
     defaultText
         .print()
     ,
-    newText("<p>This is the end of the practicce session. Now let us work on some real speech texts. </p>")
+    newText("<p>This is the end of the practicce session. Now let us work on some real speech transcriptions. </p>")
     ,
     newButton("Continue")
         .print()
