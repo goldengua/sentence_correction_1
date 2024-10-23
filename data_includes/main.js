@@ -116,7 +116,7 @@ Template( "fulldesign.csv",variable =>
     ,
     newText("context",variable.context)
     ,
-    newText("stimulus","<b>"+variable.stimulus+"</b><br>")
+    newText("stimulus","<b>"+variable.stimulus+"</b><br><br>")
     ,
     newTextInput("correction", variable.stimulus)
         .log()
