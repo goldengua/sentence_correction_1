@@ -69,7 +69,7 @@ Template( "practice.csv",variable =>
     ,
     newText("stimulus","<b>"+variable.stimulus+"</b><br>")
     ,
-    newText("explanation","<br><b>Explanation</>:"+variable.explanation)
+    newText("explanation","<br><i>Trial explained:"+variable.explanation+"</i>")
     ,
     newTextInput("correction", variable.stimulus)
         .log()
