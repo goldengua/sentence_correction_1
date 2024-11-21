@@ -67,7 +67,7 @@ newTrial( "practice_intro" ,
     defaultText
         .print()
     ,
-    newText("<p>Now let us practice on some sentences. </p>")
+    newText("<p>Let's practice some sentences now. </p>")
     ,
     newButton("Continue")
         .print()
