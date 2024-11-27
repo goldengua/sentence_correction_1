@@ -85,27 +85,30 @@ Template( "practice.csv",variable =>
     //.wait()
     .log()
     ,
-    newButton("Continue")
-        .print()
-        .wait(
-            getTextInput("correction")
-                .test.text(variable.correction)
-                .failure(
-                    newText("error", "The correction does not seem to be right. Please read the explanation above and try again.")
-                        .color("red")
-                        .print()
-                )
-          .and(
+newButton("Continue")
+    .print()
+    .wait(
+        // First, check if the text input matches the expected correction
+        getTextInput("correction")
+            .test.text(variable.correction)
+            .failure(
+                newText("error", "The correction does not seem to be right. Please read the explanation above and try again.")
+                    .color("red")
+                    .print()
+            )
+        .else(
+            // Only check the scale if the text input is correct
             getScale("score")
                 .test.selected()
                 .failure(
                     newText("error-scale", "Please adjust the slider to indicate your confidence before proceeding.")
                         .color("red")
                         .print()
-          )
+                )
         )
-      )
-    ,
+    )
+
+ )
 .log('item',variable.item)
 .log('uttrID',variable.uttrID)
 .log('context',variable.context)
@@ -151,25 +154,27 @@ Template( "fulldesign.csv",variable =>
 newButton("Continue")
     .print()
     .wait(
-        getTextInput("correction")
-            .test.text(text => text.trim().split(/\s+/).length === variable.stimulus.trim().split(/\s+/).length)
+        // First, check if the scale is selected
+        getScale("score")
+            .test.selected()
             .failure(
-                newText("error-text", "The number of words in your correction does not match the number of words in the original sentence. Please adjust your input.")
+                newText("error-scale", "Please adjust the slider to indicate your confidence before proceeding.")
                     .color("red")
                     .print()
             )
         .and(
-            getScale("score")
-                .test.selected()
+            // If scale is selected, then check the text input
+            getTextInput("correction")
+                .test.text(text => text.trim().split(/\s+/).length === variable.stimulus.trim().split(/\s+/).length)
                 .failure(
-                    newText("error-scale", "Please adjust the slider to indicate your confidence before proceeding.")
+                    newText("error-text", "The number of words in your correction does not match the number of words in the original sentence. Please adjust your input.")
                         .color("red")
                         .print()
                 )
         )
     )
-,
-
+         
+)
 .log('item',variable.item)
 .log('uttrID',variable.uttrID)
 .log('context',variable.context)
