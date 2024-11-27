@@ -87,9 +87,16 @@ Template( "practice.csv",variable =>
     ,
     newButton("Continue")
         .print()
-        .wait()
-    
-)
+        .wait(
+            getTextInput("correction")
+                .test.text(variable.stimulus)
+                .failure(
+                    newText("error", "The correction does not seem to be right. Please follow the instruction and try again.")
+                        .color("red")
+                        .print()
+                )
+        )
+    ,
 .log('item',variable.item)
 .log('uttrID',variable.uttrID)
 .log('context',variable.context)
