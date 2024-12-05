@@ -1,4 +1,5 @@
 PennController.ResetPrefix(null); // Initiates PennController
+SetCounter( "inc" , 1 )
 //PennController.DebugOff()
 // Start typing your code here
  // Initiates PennController
